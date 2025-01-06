@@ -1,0 +1,46 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    height: 100vh; /* Ekranın tam yüksekliğini kaplar */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Dikeyde ortalama */
+    align-items: center; /* Yatayda ortalama */
+    background-color: #ADD8E6; /* Açık mavi arka plan */
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #0000FF; /* Kapalı mavi başlık rengi */
+    text-align: center; /* Başlık metnini ortala */
+}
+
+.machine-options {
+    text-align: center;
+}
+
+.machine-item {
+    cursor: pointer;
+    margin: 10px 0;
+    color: #2196F3;
+}
+
+.image-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%; /* Görselin boyutunu ayarlama */
+    height: auto;
+    display: none; /* Başlangıçta görseller gizli */
+}
+
+.hidden {
+    display: none; /* Gizli sınıf */
+}
